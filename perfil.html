@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Flexbox para organizar os itens */
+        #redes-sociais ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            list-style: none;
+        }
+
+        #redes-sociais li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        #redes-sociais img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 8px;
+        }
+
+        #redes-sociais a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        #redes-sociais a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfis</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobremim.html">Sobre Mim</a>
+            <a href="projeto.html">Projetos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li>
+                    <img src="unnamed.png" alt="Logo do Instagram" />
+                    <a href="https://www.instagram.com/leogutzeitt/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <img src="i490027.jpeg" alt="Logo do LinkedIn" />
+                    <a href="https://www.linkedin.com/in/leogutzeit/" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <img src="59704711.png" alt="Logo do GitHub" />
+                    <a href="https://github.com/LeoGutzeitt" target="_blank">GitHub</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 - Feito por Leonardo Gutzeit</p>
+    </footer>
+</body>
+</html>
